@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-19T19:40:18 IST" name="Suite" finished-at="2024-07-19T19:41:49 IST" duration-ms="90233">
+    <groups>
+    </groups>
+    <test started-at="2024-07-19T19:40:18 IST" name="Test" finished-at="2024-07-19T19:41:49 IST" duration-ms="90233">
+      <class name="testCases.LogintestcaseDD">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.LogintestcaseDD@6bedbc4d]" started-at="2024-07-19T19:40:20 IST" name="setup" finished-at="2024-07-19T19:40:29 IST" duration-ms="9356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintestcase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LogintestcaseDD@6bedbc4d]" started-at="2024-07-19T19:40:29 IST" name="logintestcase" data-provider="LoginData" finished-at="2024-07-19T19:41:08 IST" duration-ms="38809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7904962966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[625966]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintestcase -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.LogintestcaseDD@6bedbc4d]" started-at="2024-07-19T19:41:08 IST" name="setup" finished-at="2024-07-19T19:41:10 IST" duration-ms="2123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintestcase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LogintestcaseDD@6bedbc4d]" started-at="2024-07-19T19:41:10 IST" name="logintestcase" data-provider="LoginData" finished-at="2024-07-19T19:41:49 IST" duration-ms="38623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7904962966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[394473]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintestcase -->
+      </class> <!-- testCases.LogintestcaseDD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
